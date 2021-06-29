@@ -1,6 +1,13 @@
-@media (max-width: 1104px) {
+@media (max-width: 1330px) {
     .home .max-width{
         margin-left: 0;
+    }
+}
+
+@media (max-width: 1104px) {
+    .column-left img{
+        height: 400px;
+        width: 400px;
     }
 }
 
@@ -74,9 +81,17 @@
         font-size: 23px;
         padding: 10px 30px;
     }
-
-
-
+.column{
+    width: 1000%;
+}
+.column-left{
+    display: flex;
+    justify-content: center;
+    margin: 0 auto 60px;
+}
+.column-right{
+    flex: 100%;
+}
 
 }
 @media (max-width: 690px) {
