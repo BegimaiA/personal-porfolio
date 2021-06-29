@@ -92,6 +92,10 @@
 .column-right{
     flex: 100%;
 }
+    .services .serv-content .card{
+        width: calc(50% - 10px);
+        margin-bottom: 20px;
+    }
 
 }
 @media (max-width: 690px) {
@@ -108,6 +112,10 @@
     }
     .home .home-btn{
         font-size: 20px;
+    }
+    .services .serv-content .card{
+        width: calc(50% - 10px);
+        margin-bottom: 20px;
     }
 }
 
