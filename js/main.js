@@ -31,3 +31,25 @@ links.forEach(link => {
     })
 })
 
+$(document).ready(function(){
+    $(".portfolio-carousel").owlCarousel({
+        items: 3,
+        loop:true,
+        margin: 30,
+        nav: true,
+        dots: true,
+        autoplay:true,
+        responsive: {
+            993: {
+                items: 3
+            },
+            769: {
+                items: 2
+            },
+            320: {
+                items: 1
+            }
+        }
+
+    });
+});

@@ -41,7 +41,7 @@ section .title::before{
     left: 50%;
     width: 180px;
     height: 3px;
-    background: #111;
+    background: #ebebeb;
     transform: translateX(-50%);
 }
 section .title::after{
@@ -51,7 +51,7 @@ section .title::after{
     font-size: 20px;
     color: #22192c;
     padding: 0 5px;
-    background: #fff;
+    background: #ebebeb;
     transform: translateX(-50%);
 }
 .menu-btn{
@@ -150,6 +150,7 @@ section .title::after{
 .navbar.sticky .menu li a:hover{
     color: #fff;
 }
+/* Home section */
 .home{
     display: flex;
     background: url("../images/5172661.jpg") no-repeat center/cover;
@@ -250,9 +251,14 @@ section .title::after{
     transition: 1s;
     transition-delay: 0s;
 }
+/* About section */
 .about{
     padding: 100px 0;
     font-family: 'Poppins', sans-serif;
+    background-color: #22192c;
+}
+.about-title{
+    color: #FFFFFF;
 }
 .about-content{
     display: flex;
@@ -329,6 +335,7 @@ section .title::after{
     color: #2196f3;
     background: none;
 }
+/* Services section */
 .services, .teams{
     color:#fff;
     background: #111;
@@ -344,7 +351,7 @@ section .title::after{
 }
 .services .serv-content .card{
     width: calc(33% - 20px);
-    background: #222;
+    background: #22192c;
     text-align: center;
     border-radius: 6px;
     padding: 50px 25px;
@@ -373,6 +380,7 @@ section .title::after{
     font-weight: 500;
     margin: 10px 0 7px 0;
 }
+/* Skills section */
 .skills{
     position: relative;
 }
@@ -457,6 +465,42 @@ section .title::after{
 .skills-content .right .mysql::before{
     width: 70%;
 }
+
+/* Porfolio section */
+
+.portfolio-box{
+    background-color: rgb(34 25 44);
+     width: 100%;
+     padding: 8px 20px;
+ }
+
+.portfolio-inner-box{
+     border: 1px solid rgba(255, 255, 255, 0.5);
+ }
+
+.portfolio-title {
+     font-size: 20px;
+     line-height: 37px;
+     text-align: center;
+     text-transform: uppercase;
+     color: #FFFFFF;
+     padding: 20px 0;
+ }
+
+.portfolio-info {
+     font-size: 14px;
+     line-height: 135%;
+     text-align: center;
+     color: #FFFFFF;
+     padding-bottom: 22px;
+ }
+
+.portfolio-img {
+     height: 100%;
+     width: 100%;
+ }
+
+/* Contact section */
 .contact{
     position: relative;
 }
