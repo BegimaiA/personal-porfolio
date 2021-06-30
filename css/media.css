@@ -1,5 +1,5 @@
 @media (max-width: 1330px) {
-    .home .max-width{
+    .home .container{
         margin-left: 0;
     }
 }
@@ -12,7 +12,7 @@
 }
 
 @media (max-width: 991px) {
-    .max-width {
+    .container {
         padding: 0 50px;
     }
 }
@@ -74,7 +74,7 @@
         font-size: 23px;
         padding: 10px 30px;
     }
-    .max-width{
+    .container{
         max-width: 930px;
     }
     .home .home-btn{
@@ -103,7 +103,7 @@
     }
 }
 @media (max-width: 690px) {
-    .max-width {
+    .container {
         padding: 0 23px;
     }
 

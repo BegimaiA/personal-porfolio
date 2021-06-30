@@ -10,19 +10,21 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
     <link rel="stylesheet" href="./css/owl.carousel.min.css">
     <link rel="stylesheet" href="./css/owl.theme.default.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/media.css">
 </head>
 <body>
 <nav class="navbar">
-    <div class="max-width">
+    <div class="container">
         <div class="logo"><a href="#"><img src="./images/logo_transparent.png"> </a></div>
         <ul class="menu">
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#services">Services</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#contact">Contacts</a></li>
+            <li class="menu-item" ><a href="#home">Home</a></li>
+            <li class="menu-item" ><a href="#about">About</a></li>
+            <li class="menu-item"><a href="#services">Services</a></li>
+            <li class="menu-item"><a href="#skills">Skills</a></li>
+            <li class="menu-item" ><a href="#portfolio">Portfolio</a></li>
+            <li class="menu-item"><a href="#contact">Contacts</a></li>
         </ul>
         <div class="menu-btn">
             <span></span>
@@ -30,7 +32,7 @@
     </div>
 </nav>
 <section class="home" id="home">
-    <div class="max-width">
+    <div class="container">
         <div class="home-content">
             <div class="text-1">Hello, my name is</div>
             <div class="text-2">Begimai Agybaeva</div>
@@ -45,14 +47,14 @@
     </div>
 </section>
 <section class="about" id="about">
-    <div class="max-width">
+    <div class="container">
         <h2 class="about-title">About me</h2>
         <div class="about-content">
             <div class=" column column-left">
                 <img src="./images/me.JPG">
             </div>
-            <div class=" column column-right">
-                <div class="text">I'am Begimai and I'am a <span> Freelancer</span></div>
+            <div class=" column column-right" data-aos="fade-right" >
+                <div class="text">I'am Begimai and I'am a <span> Web Developer </span></div>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias consequatur cumque ex illo iste
                     laudantium magni molestiae molestias nobis, odit, qui quis sed sint tenetur ut vitae voluptatum.
                     Amet cum cumque dicta distinctio dolores eum fuga inventore ipsam necessitatibus neque provident
@@ -65,7 +67,7 @@
 </section>
 
 <section class="services" id="services">
-    <div class="max-width">
+    <div class="container">
         <h2 class="title">My services</h2>
         <div class="serv-content">
             <div class="card">
@@ -94,9 +96,9 @@
     </div>
 </section>
 <section class="skills" id="skills">
-    <div class="max-width">
-        <div class="skills-img">
-            <img src="./images/Wavy_Edu-04_Single-08.jpg">
+    <div class="container">
+        <div class="skills-img rellax" data-rellax-speed="4" data-rellax-percentage="0.5">
+            <img src="./images/skills.png">
         </div>
         <h2 class="title">My skills</h2>
         <div class="skills-content">
@@ -148,21 +150,24 @@
         </div>
     </div>
 </section>
-<section class="portfolio">
-  <div class="max-width">
-      <h2 class="section-title">Take a glance at my portfolio</h2>
+
+
+<section class="portfolio" id="portfolio">
+  <div class="container">
+      <h2 class="title">Take a glance at my portfolio</h2>
       <div class="portfolio-carousel owl-carousel owl-theme">
           <div class="portfolio-item">
-              <img class="portfolio-img" src="./images/Screenshot%20(1).png">
+              <div>
+                  <a href="https://begimaia.github.io/project-restaraunt/"><img class="portfolio-img" src="./images/Screenshot%20(8).png"></a>
+              </div>
               <div class="portfolio-box">
                   <div class="portfolio-inner-box">
                       <h4 class="portfolio-title">Friendly design</h4>
-
                   </div>
               </div>
           </div>
           <div class="portfolio-item">
-              <img class="portfolio-img" src="./images/Screenshot%20(3).png">
+              <a href="https://begimaia.github.io/Homework15/"> <img class="portfolio-img" src="./images/Screenshot%20(3).png"></a>
               <div class="portfolio-box">
                   <div class="portfolio-inner-box">
                       <h4 class="portfolio-title">Clear coded</h4>
@@ -171,7 +176,7 @@
               </div>
           </div>
           <div class="portfolio-item">
-              <img class="portfolio-img" src="./images/Screenshot%20(2).png">
+              <a href="https://begimaia.github.io/AI/" > <img class="portfolio-img" src="./images/Screenshot%20(5).png"></a>
               <div class="portfolio-box">
                   <div class="portfolio-inner-box">
                       <h4 class="portfolio-title">Responsive websites</h4>
@@ -179,17 +184,6 @@
                   </div>
               </div>
           </div>
-          <div class="portfolio-item">
-              <img class="portfolio-img" src="./images/Screenshot%20(1).png">
-              <div class="portfolio-box">
-                  <div class="portfolio-inner-box">
-                      <h4 class="portfolio-title">Friendly design</h4>
-
-                  </div>
-              </div>
-          </div>
-
-
       </div>
   </div>
   </div>
@@ -197,11 +191,11 @@
 
 
 <section class="contact" id="contact">
-    <div class="max-width">
+    <div class="container">
         <h2 class="title">Contact me</h2>
         <div class="contact-content">
             <div class="column left">
-                <div class="contact-img"><img src="./images/6531.jpg"></div>
+                <div class="contact-img rellax" data-rellax-speed="3" data-rellax-percentage="0.5" ><img src="./images/phone.png"></div>
                 <div class="text">Get in Touch</div>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos harum corporis fuga corrupti.
                     Doloribus quis soluta nesciunt veritatis vitae nobis?</p>
@@ -216,15 +210,15 @@
                     <div class="row">
                         <i class="fas fa-map-marker-alt"></i>
                         <div class="info">
-                            <div class="head">Address</div>
-                            <div class="sub-title">Kyrgyzstan, Bishkek</div>
+                            <div class="head">Number</div>
+                            <div class="sub-title"><a href="tel: +996500557888"> 0500557888</a> </div>
                         </div>
                     </div>
                     <div class="row">
                         <i class="fas fa-envelope"></i>
                         <div class="info">
                             <div class="head">Email</div>
-                            <div class="sub-title">begimai.a@yandex.ru</div>
+                            <div class="sub-title"><a href="mailto: begimai.a@yandex.ru"> begimai.a@yandex.ru </a></div>
                         </div>
                     </div>
                 </div>
@@ -256,7 +250,16 @@
 </section>
 
 <script src="./js/jquery.min.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdn.jsdelivr.net/gh/dixonandmoe/rellax@master/rellax.min.js"></script>
+<script>
+    var rellax = new Rellax('.rellax');
+    AOS.init({
+        duration: 1200
+    });
+</script>
 <script src="./js/owl.carousel.min.js"></script>
 <script src="./js/main.js"></script>
+
 </body>
 </html>
