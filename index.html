@@ -101,10 +101,17 @@
         <div class="skills-content">
             <div class="column left">
                 <div class="text">My creative skills & experiences.</div>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, ratione error est recusandae
-                    consequatur, iusto illum deleniti quidem impedit, quos quaerat quis minima sequi. Cupiditate
-                    recusandae laudantium esse, harum animi aspernatur quisquam et delectus ipsum quam alias quaerat?
-                    Quasi hic quidem illum. Ad delectus natus aut hic explicabo minus quod.</p>
+                <ul class="skills-list">
+                    <li> <p class="skills-desc"> Write well designed, testable, efficient code by using best software development practices </p></li>
+               <li> <p class="skills-desc"> Create website layout/user interface by using standard HTML/CSS practices </p></li>
+                    <li><p class="skills-desc"> Integrate data from various back-end services and databases </p></li>
+                    <li><p class="skills-desc"> Create and maintain software documentation </p></li>
+                </ul>
+
+<!--                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, ratione error est recusandae-->
+<!--                    consequatur, iusto illum deleniti quidem impedit, quos quaerat quis minima sequi. Cupiditate-->
+<!--                    recusandae laudantium esse, harum animi aspernatur quisquam et delectus ipsum quam alias quaerat?-->
+<!--                    Quasi hic quidem illum. Ad delectus natus aut hic explicabo minus quod.</p>-->
                 <a href="#">Read more</a>
             </div>
             <div class="column right">
@@ -194,8 +201,7 @@
             <div class="column left">
                 <div class="contact-img rellax" data-rellax-speed="3" data-rellax-percentage="0.5" ><img src="./images/phone.png"></div>
                 <div class="text">Get in Touch</div>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dignissimos harum corporis fuga corrupti.
-                    Doloribus quis soluta nesciunt veritatis vitae nobis?</p>
+                <p>I would love to hear from you</p>
                 <div class="icons">
                     <div class="row">
                         <i class="fas fa-user"></i>
@@ -245,10 +251,25 @@
         </div>
     </div>
 </section>
+<footer class="footer">
+  <div class="container footer-container">
+      <p class="footer-info">  All rights reserved  2021&copy;</p>
+      <div class="social-wrapper">
+          <a class="footer-link" href="https://twitter.com/BegimaiAg"><i class="fab fa-twitter"></i></a>
+          <a class="footer-link" href="https://github.com/BegimaiA"><i class="fab fa-github"></i></a>
+      </div>
+
+  </div>
+</footer>
+
+
+
+
 
 <script src="./js/jquery.min.js"></script>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script src="https://cdn.jsdelivr.net/gh/dixonandmoe/rellax@master/rellax.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 <script>
     var rellax = new Rellax('.rellax');
     AOS.init({

@@ -106,13 +106,16 @@
     .container {
         padding: 0 23px;
     }
+    section{
+        padding: 60px 0;
+    }
 
     .home .home-content .text-2 {
-        font-size: 60px;
+        font-size: 55px;
     }
 
     .home .home-content .text-3 {
-        font-size: 32px;
+        font-size: 30px;
     }
     .home .home-btn{
         font-size: 20px;
@@ -120,6 +123,10 @@
     .services .serv-content .card{
         width: calc(50% - 10px);
         margin-bottom: 20px;
+    }
+    .contact-img {
+
+        right: 83px;
     }
 }
 
