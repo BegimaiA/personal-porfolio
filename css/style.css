@@ -566,10 +566,12 @@ section .title::after{
 .contact .contact-content .info .head{
     font-weight: 500;
     font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
 }
 .contact .contact-content .info .sub-title{
     color: #333;
     font-size: 20px;
+    font-family: 'Ubuntu', sans-serif;
 }
 .contact .right form .fields{
     display: flex;

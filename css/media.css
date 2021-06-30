@@ -126,6 +126,10 @@
     }
     .contact-img {
         right: 83px;
+        z-index: -10;
+    }
+    .contact-content .column .left{
+    z-index: 30;
     }
 }
 
