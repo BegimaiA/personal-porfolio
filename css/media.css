@@ -5,7 +5,7 @@
 }
 
 @media (max-width: 1104px) {
-    .column-left img{
+    .about-img{
         height: 400px;
         width: 400px;
     }
@@ -133,6 +133,10 @@
     }
     .contact-content .column .left{
     z-index: 30;
+    }
+    .column-left img{
+        height: 350px;
+        width: 350px;
     }
 }
 
