@@ -393,6 +393,7 @@ section .title::after{
 .skills-img img{
     height: 250px;
     width: 250px;
+
 }
 .skills .title::after{
     content: "what i know";
@@ -477,9 +478,10 @@ section .title::after{
     width: 100%;
     padding: 8px 20px;
  }
-.portfolio-item {
-    /*display: flex;*/
-    /*flex-direction: column;*/
+
+.portfolio-item:hover {
+    transform: scale(1.05);
+    transition: 0.3s ease;
 }
 
 .portfolio-img {
