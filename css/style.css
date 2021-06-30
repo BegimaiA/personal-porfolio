@@ -546,6 +546,7 @@ section .title::after{
 .contact .contact-content .left p{
     text-align: justify;
     font-family: 'Poppins', sans-serif;
+    font-size: 20px;
 }
 .contact .contact-content .left .icons{
     margin: 10px 0;
@@ -564,9 +565,11 @@ section .title::after{
 }
 .contact .contact-content .info .head{
     font-weight: 500;
+    font-size: 20px;
 }
 .contact .contact-content .info .sub-title{
     color: #333;
+    font-size: 20px;
 }
 .contact .right form .fields{
     display: flex;
@@ -636,6 +639,9 @@ section .title::after{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.footer-info{
+    font-size: 20px;
 }
 .footer-link{
     margin-right: 20px;
