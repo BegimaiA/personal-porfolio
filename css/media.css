@@ -107,9 +107,8 @@
         padding: 0 23px;
     }
     section{
-        padding: 60px 0;
+        padding: 50px 0;
     }
-
     .home .home-content .text-2 {
         font-size: 55px;
     }
@@ -120,6 +119,9 @@
     .home .home-btn{
         font-size: 20px;
     }
+    .about{
+        padding: 2px 0;
+    }
     .services .serv-content .card{
         width: 100%;
         margin-bottom: 20px;
@@ -127,6 +129,7 @@
     .contact-img {
         right: 83px;
         z-index: -10;
+        bottom: 0;
     }
     .contact-content .column .left{
     z-index: 30;
@@ -136,7 +139,7 @@
 
 @media (max-width: 500px) {
     .home .home-content .text-2 {
-        font-size: 50px;
+        font-size: 38px;
     }
     .home .home-content .text-3 {
         font-size: 27px;
@@ -162,5 +165,11 @@
         width: 35px;
         font-size: 23px;
         line-height: 38px;
+    }
+    .skills-desc{
+        font-size: 15px;
+    }
+    .title{
+        font-size: 32px;
     }
 }
