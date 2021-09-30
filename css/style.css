@@ -637,7 +637,7 @@ section .title::after{
 }
 .footer{
     padding: 30px 0;
-    background: lightgray;
+    background: #22192c;
 
 }
 .footer-container{
@@ -647,6 +647,7 @@ section .title::after{
 }
 .footer-info{
     font-size: 20px;
+    color: #fff;
 }
 .footer-link{
     margin-right: 20px;
@@ -659,4 +660,39 @@ section .title::after{
     color: #2196f3;
     box-shadow: 0 0 10px 3px #53ecd2;
     transform: rotateY(180deg);
+}
+.container-slider {
+    width: 100%;
+    display: flex;
+    padding: 0 20px;
+}
+.slide {
+    height: 60vh;
+    border-radius: 20px;
+    margin: 10px;
+    cursor: pointer;
+    color:#fff;
+    flex:1;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    transition: all 0.5s ease-in-out;
+
+}
+.slide h3 {
+    position: absolute;
+    font-size: 24px;
+    left: 20px;
+    bottom: 20px;
+    margin: 0;
+    opacity: 0;
+}
+.slide.active{
+    flex:6;
+
+}
+.slide.active h3{
+    opacity: 1;
+    transition: 0.3s ease-in 0.4s;
 }
